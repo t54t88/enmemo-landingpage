@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>えんメモ — 保活をひとつにまとめる保育園見学アプリ</title>
+  <meta name="description" content="えんメモは保育園探し（保活）をサポートするアプリ。見学チェックリストで記録し、複数園を比較。オフライン・アカウント不要で安心して使えます。">
+  <!-- TODO: サイトURL確定後に OGP を有効化（og:image は絶対URLが必要）
+  <meta property="og:title" content="えんメモ — 保活をひとつにまとめる保育園見学アプリ">
+  <meta property="og:description" content="見学チェックリストで記録し、複数園を比較。オフライン・アカウント不要。">
+  <meta property="og:image" content="https://＜サイトURL＞/assets/img/ogp.png">
+  -->
+  <link rel="icon" type="image/png" href="assets/img/app_icon.png">
+  <link rel="preload" href="assets/fonts/LINESeedJP_Rg.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/LINESeedJP_Eb.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <img src="assets/img/app_icon.png" alt="えんメモのアイコン">
+        <span>えんメモ</span>
+      </a>
+      <nav class="site-nav">
+        <a href="#features">機能</a>
+        <a href="releases.html">リリースノート</a>
+        <a href="privacy.html">プライバシー</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ヒーロー -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-copy">
+          <h1>保活を、<br><span class="marker">ひとつにまとめて。</span></h1>
+          <p class="lead">
+            えんメモは保育園探し（保活）をサポートするアプリ。
+            園の情報も、見学の記録も、予定も、ぜんぶ端末の中だけで管理。
+            アカウント不要で、オフラインでも安心して使えます。
+          </p>
+          <div class="hero-badges">
+            <a href="https://apps.apple.com/jp/app/id6776868012" target="_blank" rel="noopener">
+              <img class="badge-appstore" src="assets/img/appstore-badge.svg" alt="App Storeでダウンロード">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.tsuka54lab.enmemo" target="_blank" rel="noopener">
+              <img class="badge-googleplay" src="assets/img/googleplay-badge.png" alt="Google Playで手に入れよう">
+            </a>
+          </div>
+        </div>
+        <div class="hero-phone">
+          <div class="phone-frame">
+            <!-- スクリーンショットは assets/img/screenshot-home.png を差し替えれば更新できる -->
+            <img src="assets/img/screenshot-home.png" alt="えんメモのホーム画面。登録した園がカードで一覧表示される">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 安心ポイント -->
+    <section>
+      <div class="container">
+        <div class="trust-row">
+          <div class="trust-pill"><span class="micon ic-lock" aria-hidden="true"></span>データは端末内のみ</div>
+          <div class="trust-pill"><span class="micon ic-no-accounts" aria-hidden="true"></span>アカウント登録不要</div>
+          <div class="trust-pill"><span class="micon ic-wifi-off" aria-hidden="true"></span>オフラインで使える</div>
+          <div class="trust-pill"><span class="micon ic-sell" aria-hidden="true"></span>無料（広告あり）</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 機能紹介 -->
+    <section class="features" id="features">
+      <div class="container">
+        <h2 class="section-title">えんメモでできること</h2>
+        <p class="section-sub">見学の「前・当日・あと」、そして申込みまで。保活の流れをまるごとサポートします。</p>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="icon micon ic-checklist c-ok" aria-hidden="true"></div>
+            <h3>見学チェックリスト</h3>
+            <p>保育士の視点を参考にした標準テンプレート付き。各項目に「どこを見ればいいか」の観点がついているから、初めての見学でも安心。項目は自由に追加・カスタマイズできます。</p>
+          </div>
+          <div class="feature-card">
+            <div class="icon micon ic-star c-attention" aria-hidden="true"></div>
+            <h3>評価・点数化</h3>
+            <p>項目ごとに5段階スコアを記録。総合点は自動で集計されるので、印象を数字で残せます。メモや写真も一緒に保存できます。</p>
+          </div>
+          <div class="feature-card">
+            <div class="icon micon ic-compare c-primary" aria-hidden="true"></div>
+            <h3>複数園をまとめて比較</h3>
+            <p>登録した園を横並びで比較。総合点・チェック状況・アクセスをひと目で見比べて、わが家に合う園選びをサポートします。</p>
+          </div>
+          <div class="feature-card">
+            <div class="icon micon ic-calendar c-deep" aria-hidden="true"></div>
+            <h3>カレンダー＆リマインダー</h3>
+            <p>見学の予定や申込みの締め切りをカレンダーで管理。1日前・1週間前など、好きなタイミングで通知を受け取れるので、大事な日を忘れません。</p>
+          </div>
+          <div class="feature-card">
+            <div class="icon micon ic-backpack c-ng" aria-hidden="true"></div>
+            <h3>持ち物・質問リスト</h3>
+            <p>見学当日の持ち物チェックリストと、園に聞きたい質問リストを用意。質問への回答は園ごとに記録できるから、あとから比較するときにも役立ちます。</p>
+          </div>
+          <div class="feature-card">
+            <div class="icon micon ic-pdf c-deep" aria-hidden="true"></div>
+            <h3>PDFで印刷・持ち出し</h3>
+            <p>比較表やチェックリストはPDFに出力できます。印刷して見学に持って行ったり、手書きでメモを書き足したり、家族と共有するのにも便利です。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 保活フロー -->
+    <section>
+      <div class="container">
+        <h2 class="section-title">申込み・選考まで、ひとつの流れで</h2>
+        <p class="section-sub">園ごとのステータスを切り替えるだけで、いまどの段階かがすぐわかります。</p>
+        <div class="flow-steps">
+          <span class="flow-step">気になる</span>
+          <span class="flow-arrow">→</span>
+          <span class="flow-step">見学予定</span>
+          <span class="flow-arrow">→</span>
+          <span class="flow-step">見学済み</span>
+          <span class="flow-arrow">→</span>
+          <span class="flow-step">申込み済み</span>
+          <span class="flow-arrow">→</span>
+          <span class="flow-step goal">内定 <span class="micon ic-celebration" aria-hidden="true"></span></span>
+        </div>
+        <p class="flow-note">希望順位の管理や、キャンセル待ち・見送りのステータスにも対応しています。</p>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="container">
+        <div class="cta-box">
+          <h2>えんメモで、保活をはじめよう</h2>
+          <p>iOS / Android / タブレットに対応。</p>
+          <div class="hero-badges">
+            <a href="https://apps.apple.com/jp/app/id6776868012" target="_blank" rel="noopener">
+              <img class="badge-appstore" src="assets/img/appstore-badge.svg" alt="App Storeでダウンロード">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.tsuka54lab.enmemo" target="_blank" rel="noopener">
+              <img class="badge-googleplay" src="assets/img/googleplay-badge.png" alt="Google Playで手に入れよう">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="index.html">ホーム</a>
+        <a href="releases.html">リリースノート</a>
+        <a href="privacy.html">プライバシーポリシー</a>
+      </div>
+      <div class="copyright">© 2026 えんメモ開発者</div>
+    </div>
+  </footer>
+
+</body>
+</html>
